@@ -3,7 +3,7 @@ import React from "react";
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "/api";
 
 // create product context
 const ProductContext = createContext();
